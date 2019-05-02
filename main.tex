@@ -1,4 +1,5 @@
 \documentclass[openany,twoside,a4paper,titlepage,openright,12pt]{report}
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
 
 % \usepackage[margin=1in]{geometry}
 % \documentclass[a4paper,twoside]{book}
@@ -109,8 +110,8 @@
 
 \date{}
 
-\addtolength{\oddsidemargin}{40pt}
-\addtolength{\evensidemargin}{-40pt}
+\addtolength{\oddsidemargin}{30pt}
+\addtolength{\evensidemargin}{-30pt}
 
 \titlespacing*{\chapter}{0pt}{-50pt}{20pt}
 \titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{11pt}{\Huge}
@@ -156,21 +157,9 @@
 \listoftables
 \thispagestyle{empty}
 
-\cleardoublepage
-\onehalfspacing
-\pagebreak
- 
 \include{others/Abbreviations}
 \thispagestyle{empty}
 
-\cleardoublepage
-\onehalfspacing
-\pagebreak
- 
-\thispagestyle{empty}
-\cleardoublepage
-\onehalfspacing
-  
 \setcounter{page}{1}
 \pagenumbering{arabic}
 \include{chapters/chapters}
